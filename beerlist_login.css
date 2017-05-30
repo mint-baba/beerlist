@@ -1,0 +1,129 @@
+html body{
+width:1440px;
+height:100%;
+margin:0px;
+padding:0px;
+}
+
+header{
+  background-color:white;
+  width:1440px;
+  height:150px;
+}
+/*アンカー部分*/
+.top{
+  margin-left:370px;
+  height:70px;
+}
+.a_box{
+  display:flex;
+}
+
+.main-logo{
+  position:relative;
+  top:24px;
+  width:40px;
+  height:40px;
+}
+
+.top_name{
+  bottom:20px;
+}
+
+.signup_h{
+  margin:0px;
+  margin-left:370px;
+
+}
+.signup_p{
+  margin:0px;
+  margin-left:370px;
+
+}
+/*ジョッキ取っ手部分*/
+
+.handdle{
+  position:relative;
+  left:1054px;
+  top:82px;
+  width:50px;
+  height:200px;
+  border:solid 30px white;
+  border-left:none;
+  background-color: black;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+/*フォームボックス部分*/
+
+/*フォームフォントカラー*/
+.white{
+  color:black;
+}
+/*泡部分*/
+.form_title{
+  /*position: relative;
+  bottom:386px;*/
+  font-size: 20px;
+  text-align: center;
+  margin-left:427px;
+  width:604px;
+  height:40px;
+  margin:0px;
+  margin-left:370px;
+  background-color:white;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+
+}
+.form_box{
+  display:flex;
+  width:1440px;
+  height:500px;
+  padding-top:30px;
+  background-color:black;
+}
+
+.form_main{
+  /*position: relative;
+  bottom:386px;*/
+  width:598px;
+  height:350px;
+  margin-left:370px;
+  border: solid 3px white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color:#FFD700;
+}
+.form_name{
+  position:relative;
+  top:61px;
+  margin-left:65px;
+}
+.form_pass{
+  position:relative;
+  top: 82px;
+  margin-left:96px;
+}
+input[type="text"]{
+  height:20px;
+  width:200px;
+}
+
+input[type="submit"]{
+  position: relative;
+  top:30px;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-top:70px;
+  margin-left:230px;
+  border-radius: 10px;
+}
+
+.signin_a{
+  position: relative;
+  left: 40px;
+    top: 50px;
+}

@@ -1,0 +1,135 @@
+html body{
+width:1440px;
+height:100%;
+margin:0px;
+padding:0px;
+background-color:white;
+}
+
+header{
+  /*background-color:#ffd700;*/
+  background-color:white;
+  width:1440px;
+  height:141px;
+}
+/*アンカー部分*/
+.top{
+  margin-left:300px;
+  height:70px;
+}
+.a_box{
+  text-decoration: none;
+  display:flex;
+}
+
+.main-logo{
+  position:relative;
+  top:24px;
+  width:40px;
+  height:40px;
+}
+
+.top_name{
+  font-size:25px;
+  position:relative;
+  top:32px;
+}
+
+.signup_h{
+  margin:0px;
+  margin-top:22px;
+  margin-left:195px;
+  font-size:30px;
+}
+
+.his{
+  margin-left:20px;
+}
+/*フォーム部分*/
+
+.please{
+  width:300px;
+  color:white;
+  font-size:20px;
+  position: relative;
+  top:33px;
+  left:514px;
+}
+
+.botton{
+  height:400px;
+  background-color:black;
+
+}
+
+
+.form_box{
+  position: relative;
+  top:60px;
+  padding:10px;
+  background-color:#ffd700;
+  display:flex;
+  width:600px;
+  margin-left:300px;
+  border-radius: 10px;
+}
+
+.f_right{
+  height:150px;
+  margin-left:60px;
+  margin-top:70px;
+}
+
+.sub_b{
+  position: relative;
+  padding:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  top:68px;
+  left:574px;
+  font-size:15px;
+  border-radius: 10px;
+}
+
+main{
+  border:solid 3px black;
+  background-color:black;
+}
+
+
+/*テーブル部分*/
+table{
+  background-color:#ffd700;
+  border:solid 3px white;
+  width:1400px;
+  margin-left:0px;
+}
+
+tr{
+  padding:5px;
+  border:solid 3px white;
+}
+th{
+  color:black;
+  padding:5px;
+  border:solid 3px white;
+}
+td{
+  color:black;
+  padding:5px;
+  border:solid 3px white;
+
+}
+
+
+/*画像サイズ*/
+.beer_img {
+  width:120px;
+  height:220px;
+  margin-left:auto;
+  border-radius: 15px;
+}
+.detail{
+  height:70px;
+  width:150px;
+}

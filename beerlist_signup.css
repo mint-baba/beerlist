@@ -1,0 +1,99 @@
+html body{
+width:1440px;
+height:100%;
+margin:0px;
+padding:0px;
+}
+
+header{
+  background-color:white;
+  width:1440px;
+  height:150px;
+}
+/*アンカー部分*/
+.top{
+  margin-left:370px;
+  height:70px;
+}
+.a_box{
+  display:flex;
+}
+
+.main-logo{
+  position:relative;
+  top:24px;
+  width:40px;
+  height:40px;
+}
+
+.top_name{
+  bottom:20px;
+}
+
+.signup_h{
+  margin:0px;
+  margin-left:370px;
+
+}
+.signup_p{
+  margin:0px;
+  margin-left:370px;
+
+}
+
+/*フォームボックス部分*/
+
+/*フォームフォントカラー*/
+.white{
+  color:white;
+}
+.form_title{
+  font-size: 25px;
+  text-align: center;
+  margin-left:427px;
+  width:500px;
+  height:40px;
+  margin-top:0px;
+  margin-bottom:10pxpx;
+  padding-top:5px;
+}
+.form_box{
+  width:1440px;
+  height:500px;
+  background-color:black;
+}
+
+.form_main{
+  width:600px;
+  height:250px;
+  margin-left:370px;
+  border: solid 3px white;
+  border-radius: 10px;
+}
+.form_name{
+  margin-left:120px;
+}
+/*メールアドレス*/
+.form_mail{
+  margin-left:111px;
+}
+.form_pass{
+  margin-left:96px;
+}
+/*パスワード（確認用）*/
+.form_pass2{
+  margin-left:16px
+}
+
+
+input[type="text"]{
+  height:20px;
+  width:200px;
+}
+
+input[type="submit"]{
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-left:278px;
+}

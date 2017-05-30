@@ -1,0 +1,71 @@
+html body{
+width:1440px;
+height:100%;
+margin:0px;
+padding:0px;
+background-color:white;
+}
+
+header{
+  /*background-color:#ffd700;*/
+  background-color:white;
+  width:1440px;
+  height:141px;
+}
+/*アンカー部分*/
+.top{
+  margin-left:300px;
+  height:70px;
+}
+.a_box{
+  text-decoration: none;
+  display:flex;
+}
+
+.main-logo{
+  position:relative;
+  top:24px;
+  width:40px;
+  height:40px;
+}
+
+.top_name{
+  font-size:25px;
+  position:relative;
+  top:32px;
+}
+
+.signup_h{
+  margin:0px;
+  margin-top:22px;
+  margin-left:195px;
+  font-size:30px;
+}
+
+main{
+  border:solid 3px black;
+  background-color:black;
+}
+
+table{
+  background-color:#ffd700;
+  border:solid 3px white;
+  width:900px;
+  margin-left:190px;
+}
+
+tr{
+  padding:5px;
+  border:solid 3px white;
+}
+th{
+  color:black;
+  padding:5px;
+  border:solid 3px white;
+}
+td{
+  color:black;
+  padding:5px;
+  border:solid 3px white;
+
+}

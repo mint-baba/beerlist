@@ -1,0 +1,441 @@
+html body{
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+}
+/*最上部 動くheader部分*/
+.top_fixed{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:200px;
+  width:1440px;
+  margin:0px;
+}
+
+/*jquery*/
+
+.top{
+  display:flex;
+  background-color:white;
+  height:80px;
+  width:1440px;
+}
+
+.beerlist_a{
+  position:relative;
+  top: 10px;
+    left: 200px;
+  display:flex;
+  height:40px;
+  width:400px;
+}
+  /*ロゴアイコン*/
+.main-logo{
+    width:40px;
+    height:40px;
+    /*position:relative;
+    top:10px;
+    left:204px;*/
+}
+
+.top_name{
+  /*flex-basis:200px;*/
+  height:40px;
+  color:black;
+  font-size:40px;
+  /*position:relative;
+  top:15px;
+  left:210px;*/
+}
+
+/*ようこそ〜さんテキスト*/
+.hello{
+  position:relative;
+  display:flex;
+  height:20px;
+  top:10px;
+  left:435px;
+}
+
+/*ログインボタン*/
+.login_b{
+  /*color:black;*/
+  height:20px;
+  text-decoration: none;
+  padding-top:2px;
+  padding-right:10px;
+  border-right:solid 2px black;
+  position:relative;
+  top:35px;
+  left:159px;
+}
+/*新規登録ボタン*/
+.signup_b{
+  /*color:black;*/
+  height:20px;
+  text-decoration: none;
+  padding-top:2px;
+  padding-right:10px;
+  border-right:solid 2px black;
+  position:relative;
+  top:35px;
+  left:169px;
+}
+/*購入履歴ボタン*/
+.history_b{
+  /*color:black;*/
+  height:20px;
+  padding-top:2px;
+  padding-right:10px;
+  text-decoration: none;
+  position:relative;
+  top:35px;
+  left:176px;
+}
+.logout{
+  position: relative;
+  top: 33px;
+    left: 183px;
+}
+
+header{
+  height:120px;
+  width:1440px;
+  padding-top:20px;
+  background-color:black;
+}
+
+.botton_box{
+  height:120px;
+  width:901px;
+  position:relative;
+  right:66px;
+  margin-left:271px;
+  margin-right:auto;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  background-color:white;
+  display:flex;
+}
+.botton{
+  position:relative;
+  height:60px;
+  left:50px;
+  top:40px;
+  font-size:25px;
+  text-decoration:none;
+  color:black;
+  display:flex;
+}
+.right_line{
+  border-right:solid 3px black;
+}
+.right{
+  padding-right:40px;
+}
+.left{
+  padding-left:40px;
+}
+.a_name{
+  width:130px;
+  padding-top:15px;
+  height:25px;
+}
+.icon{
+  width:40px;
+  height:50px;
+}
+
+.cart{
+  position:relative;
+  top:30px;
+  text-align: center;
+  /*文字*/
+  font-size:11px;
+  text-decoration:none;
+  color:white;
+}
+/*カートの画像*/
+.cart_img{
+  position:relative;
+  top:25px;
+  left:33px;
+  width:40px;
+  height:40px;
+}
+.cart_line{
+  position:relative;
+  /*位置*/
+  top:10px;
+  left:84px;
+  /*margin-top:10px;
+  margin-left:0px;*/
+  /* サイズ指定 */
+ width:100px;
+ height:100px;
+ /* 背景色 */
+ background-color:black;
+ /* 角を丸くする */
+ border-radius: 50%;
+ text-decoration:none;
+}
+/*header部分終わり*/
+
+#main_img_box{
+  width:1000px;
+  height:380px;
+  border:solid 3px white;
+  margin-left:217px;
+  margin-top:189px;
+}
+/*画像本体*/
+#main_img{
+  width:1000px;
+  height:450px;
+  margin-top:189px;
+  margin-left:153px;
+}
+/*中央検索部分*/
+main{
+  background-color:black;
+}
+#form_box{
+  width:895.5px;
+  height:380px;
+  border:solid 3px white;
+  margin-left:205px;
+  margin-top:189px;
+  display:flex;
+}
+/*ビール絵の箱*/
+.beer_pict_box{
+  flex-basis:200px;
+  height:300px;
+  margin-left:120px;
+  margin-top:40px;
+}
+/*ビール絵*/
+#beer_cream{
+  width:150px;
+  height:50px;
+  background-color:white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#beer_body{
+  position:inherit;
+  width:143px;
+  height:200px;
+  background-color:white;
+  border:solid 4px #eeeeee;
+  border-top:transparent;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+
+/*色を変更するクラス*/
+#beer_body.orange{
+  background-color:#f58008;
+}
+#beer_body.white_beer{
+  background-color:#ff9;
+}
+#beer_body.yellow_beer{
+  background-color:#ffd700;
+}
+#beer_body.black_beer{
+  background-color:#151410;
+}
+#beer_cream.black_cream{
+  background-color:#d0b497;
+}
+
+/*input[name="color"][value="orange"]:checked ~ div#beer_body {
+   background: #f58008;
+}*/
+.beer_stand{
+  position:inherit;
+  top: auto;
+  bottom: 2px;
+  left: 3px;
+  width:23px;
+  height:55px;
+  background-color:#eeeeee;
+  margin-left:63px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+}
+.beer_bottom{
+  position:inherit;
+  bottom:6px;
+  width:120px;
+  height:13px;
+  background-color:#eeeeee;
+  margin-left:15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+h3{
+  color:white;
+  font-size:32px;
+  margin-left:66px;
+  margin-top:15px;
+  margin-bottom: 20px;
+}
+/*フォーム箱*/
+.beer_form_box{
+  flex-basis:500px;
+  height:300px;
+  margin-left:50px;
+  margin-top:30px;
+}
+/*colorフォームボタン部分*/
+.color-box{
+  display:flex;
+}
+
+.color_botton_box{
+  margin-right:30px;
+  margin-bottom:30px;
+  margin-left:20px;
+}
+.body_botton_box{
+  margin-right:30px;
+  margin-bottom:30px;
+  margin-left:50px;
+}
+.taste_botton_box{
+  margin-right:30px;
+  margin-bottom:30px;
+  margin-left:50px;
+}
+
+
+/*フォーム部分のフォントカラー*/
+.white{
+  color:white;
+  margin-right:10px;
+  padding-top:8px;
+}
+.medi{
+  /*position:;*/
+  /*right:15px;*/
+}
+.col_p{
+  /*position:inherit;*/
+  /*right: 10px;*/
+}
+/*radioボタン編集*/
+.radio{
+  width:20px;
+  height:20px;
+}
+
+/*containerの部分*/
+.container{
+  background-color:black;
+  display:flex;
+  /*height:100%;*/
+}
+/*選択ボックス表示部分*/
+.beer_box{
+  background-color:#FFD700;
+  width:894px;
+  height:auto;
+  /*flex-basis:893px;*/
+  margin-right:auto;
+  margin-left:205px;
+  border:solid #EEEEEE 4px;
+  border-top:solid #FFD700 5px;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+
+}
+h2{
+  font-size:25px;
+  text-align:center;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+.detail_box{
+  width:893px;
+  height:auto;
+  margin-left:0px;
+  margin-right:0px;
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.detail_botton{
+  text-decoration:none;
+  width:120px;
+  margin-left:125px;
+}
+
+.beer_img {
+  width:120px;
+  height:220px;
+  margin-left:auto;
+  border-radius: 15px;
+}
+.black{
+  text-align: center;
+  color:black;
+}
+.wave{
+  background:
+    linear-gradient(to right, black, black);
+  height: 50px;
+  position: relative;
+}
+.wave::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image:
+    radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+}
+.wave::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 15px;
+  background-size: 40px 20px;
+  background-image:
+    radial-gradient(circle at 10px 15px, white 12px, transparent 13px);
+}
+
+
+
+footer{
+  background-color:white;
+  height:120px;
+}
+
+/*stopロゴマーク*/
+img.stop{
+  width:300px;
+  margin-left:100px
+}
+
+.stop_p{
+  width:300px;
+  height:100px;
+  left:300px;
+  font-size:13px;
+  position:relative;
+  bottom:94px;
+}
